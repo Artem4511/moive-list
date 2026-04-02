@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List</title>
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/movielist.css" />
+  </head>
+  <body>
+    <section class="container container-hero">
+      <div class="hero">
+        <div class="hero__content">
+          <h3 class="hero__title">СПИСОК ФИЛЬМОВ</h3>
+          <span class="hero__year">2026</span>
+        </div>
+        <div class="hero__subtitle">Посмотреть</div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="movielist">
+        <div class="addFilm">
+          <input class="js-addFilmInput addFilm__input" type="text" placeholder="Добавить фильм">
+          <button class="js-addFilmBtn addFilm__btn">
+            <div class="btn-image">
+              <div class="btn-image2"></div>
+            </div>
+          </button>
+        </div>
+
+        <div class="js-movieList movielist-wrapper"> 
+         </div>
+      </div>
+    </section>
+
+    <script src="js/addFilm.js"></script>
+  </body>
+</html>
